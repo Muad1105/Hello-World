@@ -1,2 +1,2 @@
 # Hello-World
-Here to learn and how to create website.
+Here to learn and expertise coding.
