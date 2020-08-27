@@ -1,2 +1,2 @@
 # Hello-World
-Here to learn and expertise coding.
+To learn and expertise in coding.
