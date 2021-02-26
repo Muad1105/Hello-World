@@ -1,0 +1,8 @@
+const [arrDeposit, arrWithdrawals] = accounts
+    .flatMap(acc => acc.movements)
+    .reduce(
+        (sum, cur) => {
+            cur > 0 ? (arrDeposit += cur) : (arrWithdrawals += cur);
+            return [arrDeposit, arrWithdrawals];
+        }, [0, 0]
+    );
